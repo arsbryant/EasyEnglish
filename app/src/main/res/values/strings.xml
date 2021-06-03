@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EasyEnglish</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="speaking">SPEAKING</string>
+    <string name="listening">LISTENING</string>
+    <string name="writing">WRITING</string>
+    <string name="reading">READING</string>
+    <string name="skills">Skills</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_english_word">type in your english word</string>
+    <string name="hint_russian_word">type in your russian word</string>
+    <string name="save">save</string>
+    <string name="delete_all_words">Delete all words</string>
+    <string name="phrase">So, last time I was drunk was almost 1 month ago. I don\'t want to get wasted anymore since I\'ve lost almost 10k that day. Furtunately, I got my money back today</string>
+    <string name="awesome">That"'"s awesome!</string>
+    <string name="awesome_russian">Это потрясающе!</string>
+    <string name="title_vocabulary">Vocabulary</string>
+    <string name="i">I</string>
+    <string name="never">never</string>
+    <string name="knew">knew</string>
+    <string name="what">what</string>
+    <string name="of">of</string>
+    <string name="capable">capable</string>
+    <string name="was">was</string>
+    <string name="correct_answer">I never knew what I was capable of</string>
+    <string name="i_ve_never_knew_what_i_was_capable_of">I\'ve never knew what I was capable of</string>
+    <string name="i_never_knew_what_i_was_capable_off">i never knew what I was capable off</string>
+    <string name="i_d_never_knew_what_i_was_capable_of">I\'d never knew what I was capable of</string>
+    <string name="how_to_cook_apple_pie">How to cook apple pie</string>
+    <string name="apple_pie_article">Apple pie is an excellent dessert for
+        family andfestive table. The process of its preparation is not difficult. You can bake this
+        dessert according to the original or classic recipe. How to cook an apple pie based on them,
+        is described further. Classic apple pie recipe Make apple pie according to the classic
+        recipe is very simple. Pre-required to stock up the following ingredients: chicken eggs - 5
+        pcs .; wheat flour - 300 g; citric acid - a pinch; granulated sugar - 1 glass; apples - 2-3
+        pcs. Please note that for charlotte betteruse sour-sweet fruits that do not differ in
+        excessive juiciness. Then the baking will not be wet and will exceed your expectations. This
+        dessert is prepared as follows: Wash apples under running water. Cut them into thin slices,
+        so that they are subsequently well baked. Then transfer them to a bowl of water, where add a
+        little citric acid. Make the dough. Take the eggs and beat them with a mixer. Then start to
+        add a little sugar. It is necessary that these ingredients, after whipping, increase in
+        volume approximately three times. Then start adding flour, while mixing the dough already
+        with the use of a spoon, and put the mixer aside. Take a baking dish, cover with
+        parchmentand sprinkle it with a little flour. Then put the apples in it and fill it with a
+        ready-made dough. Put it all in a preheated oven for 200 minutes for 20 minutes. After that,
+        the pie with apples will be ready, it will only have to cool, cut into small portions and
+        serve to the table.
+    </string>
+    <string name="ingredients">Ingredients: 360 g butter - 500 g flour - 1 egg yolk - ½ tsp salt - 120 g sugar - 60 ml water</string>
+    <string name="step_1_6">Step 1/6</string>
+    <string name="text1">Cut some of butter into large pieces and add to a stand mixer with most of flour, egg yolk, salt, and sugar. Beat for approx. 2 – 3 min. until crumbly. Then, slowly add water, reserving a small amount for the final step, and continue to beat for another 1 – 2 min. until dough is smooth and uniform in consistency. Wrap dough in plastic wrap and transfer to refrigerator. Allow to set for approx. 1 h.</string>
+    <string name="step_2_6">Step 2/6</string>
+    <string name="text2">Preheat oven to 180°C/350°F. Cut dough into two even rounds. Then, flour work surface, place dough on top, and roll out, one at a time, using a rolling pin until rounds are larger than your pie dish.</string>
+    <string name="step_3_6">Step 3/6</string>
+    <string name="text3">Flour both sides of dough and transfer to pie dish. Press evenly into all edges of dish and then remove excess dough. Place a piece of parchment paper on top of dish and fill with pie weights. Place in preheated oven at 180°C/350°F and blind bake for approx. 10 min.</string>
+    <string name="step_4_6">Step 4/6</string>
+    <string name="text4">Peel, core, and quarter apples. Then, cut crosswise into medallion-sized pieces.</string>
+    <string name="step_5_6">Step 5/6</string>
+    <string name="text5">In a large bowl, thoroughly mix together apple, lemon juice, cinnamon, nutmeg, flour, sugar, and brown sugar.</string>
+    <string name="step_6_6">Step 6/6</string>
+    <string name="text6">Transfer apple slices to pie dish and spread out evenly. Cut remainder of butter into pieces and place on top of apples. Cover pie with rest of dough. Make a small hole in the middle, so air can escape. Mix together egg white and water and brush on top. Return to oven and bake at 180°C/350°F for approx. 50 – 55 min. until golden brown. Enjoy!</string>
+</resources>

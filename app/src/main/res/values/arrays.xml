@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="phrase_strings">
+
+        <item>I</item>
+        <item>never</item>
+        <item>knew</item>
+        <item>what</item>
+        <item>I</item>
+        <item>was</item>
+        <item>capable</item>
+        <item>of</item>
+    </string-array>
+
+</resources>

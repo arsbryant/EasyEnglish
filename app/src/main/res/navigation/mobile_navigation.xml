@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_skills">
+
+    <fragment
+        android:id="@+id/navigation_skills"
+        android:name="com.example.easyenglish.ui.home.HomeFragment"
+        android:label="@string/skills"
+        tools:layout="@layout/fragment_skills" >
+        <action
+            android:id="@+id/navigate_to_speaking"
+            app:destination="@id/navigation_speaking" />
+        <action
+            android:id="@+id/navigate_to_listening"
+            app:destination="@id/listeningFragment" />
+        <action
+            android:id="@+id/action_navigation_skills_to_readingListFragment"
+            app:destination="@id/readingListFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.easyenglish.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_addWordbookFragment"
+            app:destination="@id/addWordbookFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.easyenglish.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_speaking"
+        android:name="com.example.easyenglish.SpeakingFragment"
+        android:label="Speaking"
+        tools:layout="@layout/fragment_speaking"/>
+    <fragment
+        android:id="@+id/addWordbookFragment"
+        android:name="com.example.easyenglish.ui.dashboard.AddWordbookFragment"
+        android:label="add_wordbook_fragment"
+        tools:layout="@layout/add_wordbook_fragment" >
+        <action
+            android:id="@+id/action_addWordbookFragment_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningFragment"
+        android:name="com.example.easyenglish.ListeningFragment"
+        android:label="fragment_listening"
+        tools:layout="@layout/fragment_listening" >
+        <action
+            android:id="@+id/action_listeningFragment_to_listeningTwo"
+            app:destination="@id/listeningTwo" />
+    </fragment>
+    <fragment
+        android:id="@+id/listeningTwo"
+        android:name="com.example.easyenglish.listeningTwo"
+        android:label="fragment_listening_two"
+        tools:layout="@layout/fragment_listening_two" />
+    <fragment
+        android:id="@+id/readingListFragment"
+        android:name="com.example.easyenglish.ReadingListFragment"
+        android:label="fragment_reading_list"
+        tools:layout="@layout/fragment_reading_list" >
+        <action
+            android:id="@+id/action_readingListFragment_to_readingArticleFragment"
+            app:destination="@id/readingArticleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/readingArticleFragment"
+        android:name="com.example.easyenglish.ReadingArticleFragment"
+        android:label="fragment_reading_article"
+        tools:layout="@layout/fragment_reading_article" />
+</navigation>

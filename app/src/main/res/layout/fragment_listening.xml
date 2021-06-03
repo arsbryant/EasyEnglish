@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListeningFragment">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <VideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/correct_answer"
+        android:backgroundTint="@color/button_background"
+        android:textColor="@color/black_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/button2"
+        android:backgroundTint="@color/button_back_red"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black_800"
+        android:text="@string/i_ve_never_knew_what_i_was_capable_of"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/button_back_red"
+        android:textColor="@color/black_800"
+        android:layout_marginTop="16dp"
+        android:text="@string/i_never_knew_what_i_was_capable_off"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/button_back_red"
+        android:text="@string/i_d_never_knew_what_i_was_capable_of"
+        android:textColor="@color/black_800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
